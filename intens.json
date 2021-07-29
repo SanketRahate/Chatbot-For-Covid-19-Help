@@ -1,0 +1,108 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hii", "whats up"],
+         "responses": ["I`m Guru, how can I help you sir?"],
+         "context": [""]
+        },
+        {"tag": "goodmorning",
+         "patterns": ["good morning", "gm", "morning"],
+         "responses": [" Good morning sir, how can I help you sir?"],
+         "context": [""]
+          },
+        {"tag": "goodafternoon",
+         "patterns": ["good afternoon", "ga", "afternoon"],
+         "responses": [" Good afternoon sir, how can I help you sir?"],
+         "context": [""]
+          },
+        {"tag": "goodevening",
+         "patterns": ["good evening", "gm", "morning"],
+         "responses": [" Good evening sir, how can I help you sir?"],
+         "context": [""]
+        },
+       {"tag": "goodnight",
+         "patterns": ["good night", "gn", "night"],
+         "responses": [" Good night sir,Take care, Sweet Dreams "],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [ ],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "whoareyou",
+         "patterns": ["who are u?", "who are u", "?", "your name", "name"],
+         "responses": [" I`m Guru, I`am your personal guide, how can I help you sir?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do", "what can you do for me", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you and help you when u feel happy, sad, depress, Your Mood?"],
+         "context": [""]
+        },
+        {"tag": "mood",
+         "patterns": ["sad", "i feel sad", "i am sad" ],
+         "responses": ["When you`re sad, you`re not sad. You are merely oblivious to the good things in your life. \nThere is always a crack of light in the darkness, Find it."],
+         "context": [""]
+        },
+        {"tag": "happy",
+         "patterns": ["happy", "i feel happy", "i am happy"],
+         "responses": ["Wow that`s great Sir, Enjoy your time"],
+         "context": [""]
+        },
+        {"tag": "depress",
+         "patterns": ["depress", "i feel depress", "i am depress"],
+         "responses": ["Don`t be depress, Life is all about ups and down take a deep breath and start again, Your mom and dad waiting for you, Read a book"],
+         "context": [""]
+        },
+        {"tag": "book",
+         "patterns": ["suggest me a book", "give me a book", "book name", "book"],
+         "responses": ["1.Think like a monk, 2.The art of happiness, 3.The four agreements"],
+         "context": [""]
+        },
+        {"tag": "Howcanweprotectotherandourself?",
+         "patterns": ["5"],
+         "responses": ["Stay safe by taking some simple precautions, such as physical distancing, wearing a mask, \nespecially when distancing cannot be maintained, keeping rooms well ventilated, avoiding crowds and close contact, regularly cleaning your hands, and coughing into a bent elbow or tissue. Check local advice where you live and work. Do it all!"],
+         "context": [""]
+        },
+        {"tag": "AretherelongtermeffectofCOVID-19?",
+         "patterns": ["4"],
+         "responses": ["Some people who have had COVID-19, whether they have needed hospitalization or not, continue to experience symptoms, including fatigue, respiratory and neurological symptoms.\n\nWHO is working with our Global Technical Network for Clinical Management of COVID-19, researchers and patient groups around the world to design and carry out studies of patients beyond the initial acute course of illness to understand the proportion of patients who have long term effects, how long they persist, and why they occur.These studies will be used to develop further guidance for patient care. "],
+         "context": [""]
+        },
+        {"tag": "WhoismostatriskofsevereillnessfromCOVID-19?",
+         "patterns": ["3"],
+         "responses": ["People aged 60 years and over, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, obesity or cancer, are at higher risk of developing serious illness. \n\nHowever, anyone can get sick with COVID-19 and become seriously ill or die at any age. "],
+         "context": [""]
+        },
+        {"tag": "WhathappenstopeoplewhogetCOVID-19?",
+         "patterns": ["2"],
+         "responses": ["Among those who develop symptoms, most (about 80%) recover from the disease without needing hospital treatment. About 15% become seriously ill and require oxygen and 5% become critically ill and need intensive care.\n\nComplications leading to death may include respiratory failure, acute respiratory distress syndrome (ARDS), sepsis and septic shock, thromboembolism, and/or multiorgan failure, including injury of the heart, liver or kidneys.\n\nIn rare situations, children can develop a severe inflammatory syndrome a few weeks after infection. "],
+         "context": [""]
+        },
+        {"tag": "symptoms",
+         "patterns": ["1"],
+         "responses": ["The most common symptoms of COVID-19 are \nFever \nDry cough \nFatigue \nOther symptoms that are less common and may affect some patients include:\nLoss of taste or smell,\nNasal congestion,\nConjunctivitis (also known as red eyes)\nSore throat,\nHeadache,\nMuscle or joint pain,\nDifferent types of skin rash,\nNausea or vomiting,\nDiarrhea,\nChills or dizziness"],
+         "context": [""]
+        },
+        {"tag": "covid19",
+         "patterns": ["what is covid-19", "covid-19", "corona", "corona virus"],
+         "responses": ["COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.\nWHO first learned of this new virus on 31 December 2019,\nfollowing a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China.\n1.symptoms of COVID-19 \n2.What happens to people who get COVID-19? \n3.Who is most at risk of severe illness from COVID-19?\n4.Are there long term effect of COVID-19?\n5.How can we protect other and ourself?"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": ["i love you", "love you", "do you love me", "i hate u", "hate u"],
+         "responses": ["I love you too"],
+         "context": [""]
+        }
+   ]
+}
